@@ -1,5 +1,45 @@
-venv/
+# Python bytecode and caches
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+.venv/
+
+# Testing and coverage
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Editor and OS files
 .vscode/
-.envS
+.idea/
+.DS_Store
+
+# Logs and local data
+*.log
+*.sqlite3
+*.db
+*.bak
+*.tmp
+
+# Docker
+docker-data/
+
+# Python build files
+build/
+dist/
+*.egg-info/
+
+# Local test scripts (optional)
+test_db.py
+test_repo.py
